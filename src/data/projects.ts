@@ -58,6 +58,7 @@ export const featuredProjects: FeaturedProject[] = [
     description:
       "E-commerce de tênis com frontend em React + Vite + Tailwind e backend próprio em Node.js + Express + SQLite com autenticação JWT. Catálogo com curadoria visual, páginas de produto e experiência de compra fluida do início ao fim.",
     tags: ["React", "Node.js", "Express", "TypeScript", "Tailwind", "JWT", "SQLite", "UI/UX"],
+    link: "https://sole-store-omega.vercel.app",
   },
 ];
 
@@ -78,6 +79,7 @@ export const allProjects: TableProject[] = [
       "E-commerce de tênis com API própria em Node.js + Express + SQLite e autenticação JWT. Frontend moderno em React + Vite com catálogo visual e experiência de compra completa",
     year: 2026,
     stage: "PROTÓTIPO",
+    link: "https://sole-store-omega.vercel.app",
   },
   {
     number: "03",
