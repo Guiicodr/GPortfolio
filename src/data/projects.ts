@@ -37,7 +37,7 @@ export const featuredProjects: FeaturedProject[] = [
     title: "Sistema de Controle Financeiro",
     subtitle: "GESTÃO FINANCEIRA COM API REST E FRONTEND DESACOPLADO",
     description:
-      "API REST em Spring Boot 3 hospedada no Railway, com frontend em React/Next.js na Vercel. Autenticação via JWT e arquitetura stateful/stateless bem definida entre client e servidor.",
+      "API REST em Spring Boot 3 com segurança JWT e Docker, hospedada no Railway, com frontend em Next.js na Vercel. Arquitetura desacoplada com autenticação stateful/stateless e dashboard completo de gestão financeira.",
     tags: [
       "Java",
       "Spring Boot",
@@ -56,8 +56,8 @@ export const featuredProjects: FeaturedProject[] = [
     title: "Sole Store",
     subtitle: "E-COMMERCE DE TÊNIS COM ESTILO JOVIAL",
     description:
-      "E-commerce com curadoria de tênis de marca. Algumas páginas implementadas com foco em experiência visual, sem backend no momento.",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind", "UI/UX"],
+      "E-commerce de tênis com frontend em React + Vite + Tailwind e backend próprio em Node.js + Express + SQLite com autenticação JWT. Catálogo com curadoria visual, páginas de produto e experiência de compra fluida do início ao fim.",
+    tags: ["React", "Node.js", "Express", "TypeScript", "Tailwind", "JWT", "SQLite", "UI/UX"],
   },
 ];
 
@@ -66,7 +66,7 @@ export const allProjects: TableProject[] = [
     number: "01",
     title: "Sistema de Controle Financeiro",
     description:
-      "API REST em Spring Boot 3 (Railway) e frontend em Next.js (Vercel), com autenticação JWT",
+      "API REST em Spring Boot 3 (Railway) e frontend em Next.js (Vercel), com autenticação JWT, Docker e dashboard financeiro completo",
     year: 2026,
     stage: "CONSTRUINDO",
     link: "https://financial-control-dashboard-smoky.vercel.app",
@@ -75,7 +75,7 @@ export const allProjects: TableProject[] = [
     number: "02",
     title: "Sole Store",
     description:
-      "E-commerce jovial de tênis de marca, estilo site da Nike — algumas páginas implementadas, sem backend no momento",
+      "E-commerce de tênis com API própria em Node.js + Express + SQLite e autenticação JWT. Frontend moderno em React + Vite com catálogo visual e experiência de compra completa",
     year: 2026,
     stage: "PROTÓTIPO",
   },
@@ -83,7 +83,7 @@ export const allProjects: TableProject[] = [
     number: "03",
     title: "Mapa Secreto",
     description:
-      "Landing page para curso estudantil, site de turismo de regiões pouco conhecidas de São Paulo",
+      "Landing page com mapa interativo em Leaflet + React para divulgação de um curso estudantil sobre regiões pouco conhecidas de São Paulo. Inclui servidor Express próprio e animações com Framer Motion",
     year: 2026,
     stage: "PROTÓTIPO",
     link: "https://mapa-secreto-nine.vercel.app",
@@ -92,7 +92,7 @@ export const allProjects: TableProject[] = [
     number: "04",
     title: "IASSIS",
     description:
-      "Gestão, agendamento e acompanhamento de clientes em clínicas psicológicas, com funcionalidade de IA integrada",
+      "Sistema completo de gestão para clínicas psicológicas com frontend em React + shadcn/ui + Vite e backend em Python. Agendamento, cadastro de clientes, acompanhamento de sessões e painéis analíticos com Recharts",
     year: 2026,
     stage: "CONSTRUINDO",
   },
@@ -100,7 +100,7 @@ export const allProjects: TableProject[] = [
     number: "05",
     title: "Extensão Universitária: LGPD na Prática",
     description:
-      "Artigo científico e estudo de caso sobre adequação de sistemas à Lei Geral de Proteção de Dados",
+      "Artigo científico e estudo de caso sobre adequação de sistemas à Lei Geral de Proteção de Dados (LGPD), com análise prática de conformidade em aplicações reais e propostas de mitigação",
     year: 2025,
     stage: "PROTÓTIPO",
   },

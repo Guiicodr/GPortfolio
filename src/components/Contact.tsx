@@ -27,7 +27,7 @@ const links = [
   },
   {
     label: "LINKEDIN",
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/guilhermehriq/",
   },
 ];
 
