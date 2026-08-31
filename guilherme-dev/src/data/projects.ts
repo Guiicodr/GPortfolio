@@ -7,6 +7,7 @@ export interface FeaturedProject {
   subtitle: string;
   description: string;
   tags: string[];
+  link?: string;
 }
 
 export interface TableProject {
@@ -15,6 +16,7 @@ export interface TableProject {
   description: string;
   year: number;
   stage: Stage;
+  link?: string;
 }
 
 export interface StatItem {
@@ -24,7 +26,7 @@ export interface StatItem {
 
 export const heroStats: StatItem[] = [
   { label: "IDEIA", value: "02" },
-  { label: "CONSTRUINDO", value: "03" },
+  { label: "CONSTRUINDO", value: "02" },
   { label: "PROTÓTIPO", value: "03" },
 ];
 
@@ -46,6 +48,7 @@ export const featuredProjects: FeaturedProject[] = [
       "Tailwind",
       "JWT",
     ],
+    link: "https://financial-control-dashboard-smoky.vercel.app",
   },
   {
     number: "02",
@@ -53,7 +56,7 @@ export const featuredProjects: FeaturedProject[] = [
     title: "Sole Store",
     subtitle: "E-COMMERCE DE TÊNIS COM ESTILO JOVIAL",
     description:
-      "E-commerce com curadoria de tênis de marca, inspirado no design da Nike. Algumas páginas implementadas com foco em experiência visual, sem backend no momento.",
+      "E-commerce com curadoria de tênis de marca. Algumas páginas implementadas com foco em experiência visual, sem backend no momento.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "UI/UX"],
   },
 ];
@@ -66,6 +69,7 @@ export const allProjects: TableProject[] = [
       "API REST em Spring Boot 3 (Railway) e frontend em Next.js (Vercel), com autenticação JWT",
     year: 2026,
     stage: "CONSTRUINDO",
+    link: "https://financial-control-dashboard-smoky.vercel.app",
   },
   {
     number: "02",
@@ -82,6 +86,7 @@ export const allProjects: TableProject[] = [
       "Landing page para curso estudantil, site de turismo de regiões pouco conhecidas de São Paulo",
     year: 2026,
     stage: "PROTÓTIPO",
+    link: "https://mapa-secreto-nine.vercel.app",
   },
   {
     number: "04",
@@ -98,13 +103,5 @@ export const allProjects: TableProject[] = [
       "Artigo científico e estudo de caso sobre adequação de sistemas à Lei Geral de Proteção de Dados",
     year: 2025,
     stage: "PROTÓTIPO",
-  },
-  {
-    number: "06",
-    title: "Sistema Acadêmico de Gestão de Estágios",
-    description:
-      "Plataforma para o curso de Análise e Desenvolvimento de Sistemas, com controle e validação de horas de estágio supervisionado",
-    year: 2026,
-    stage: "CONSTRUINDO",
   },
 ];
