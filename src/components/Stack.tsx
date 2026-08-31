@@ -21,6 +21,7 @@ const stackData: StackCategory[] = [
       { name: "JavaScript", level: "Avançado" },
       { name: "SQL", level: "Avançado" },
       { name: "HTML5 / CSS3", level: "Avançado" },
+      { name: "Python", level: "Intermediário" },
     ],
   },
   {

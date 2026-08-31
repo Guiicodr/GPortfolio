@@ -1,4 +1,4 @@
-export type Stage = "PROTÓTIPO" | "CONSTRUINDO";
+export type Stage = "PROTÓTIPO" | "CONSTRUINDO" | "ARTIGO CIENTÍFICO";
 
 export interface FeaturedProject {
   number: string;
@@ -26,14 +26,15 @@ export interface StatItem {
 
 export const heroStats: StatItem[] = [
   { label: "IDEIA", value: "02" },
-  { label: "CONSTRUINDO", value: "02" },
+  { label: "CONSTRUINDO", value: "01" },
   { label: "PROTÓTIPO", value: "03" },
+  { label: "ARTIGO CIENTÍFICO", value: "01" },
 ];
 
 export const featuredProjects: FeaturedProject[] = [
   {
     number: "01",
-    stage: "CONSTRUINDO",
+    stage: "PROTÓTIPO",
     title: "Sistema de Controle Financeiro",
     subtitle: "GESTÃO FINANCEIRA COM API REST E FRONTEND DESACOPLADO",
     description:
@@ -69,7 +70,7 @@ export const allProjects: TableProject[] = [
     description:
       "API REST em Spring Boot 3 (Railway) e frontend em Next.js (Vercel), com autenticação JWT, Docker e dashboard financeiro completo",
     year: 2026,
-    stage: "CONSTRUINDO",
+    stage: "PROTÓTIPO",
     link: "https://financial-control-dashboard-smoky.vercel.app",
   },
   {
@@ -104,6 +105,6 @@ export const allProjects: TableProject[] = [
     description:
       "Artigo científico e estudo de caso sobre adequação de sistemas à Lei Geral de Proteção de Dados (LGPD), com análise prática de conformidade em aplicações reais e propostas de mitigação",
     year: 2025,
-    stage: "PROTÓTIPO",
+    stage: "ARTIGO CIENTÍFICO",
   },
 ];
