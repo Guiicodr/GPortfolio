@@ -50,7 +50,7 @@ export const featuredProjects: FeaturedProject[] = [
       "Recharts",
       "AI",
     ],
-    link: "https://github.com/Guiicodr/iAssis",
+    link: "https://i-assis.vercel.app",
   },
   {
     number: "02",
