@@ -25,15 +25,35 @@ export interface StatItem {
 }
 
 export const heroStats: StatItem[] = [
-  { label: "IDEIA", value: "02" },
-  { label: "CONSTRUINDO", value: "01" },
-  { label: "PROTÓTIPO", value: "03" },
+  { label: "PROTÓTIPO", value: "04" },
+  { label: "CONSTRUINDO", value: "00" },
   { label: "ARTIGO CIENTÍFICO", value: "01" },
 ];
 
 export const featuredProjects: FeaturedProject[] = [
   {
     number: "01",
+    stage: "PROTÓTIPO",
+    title: "iAssis — Intelligent Clinical Management",
+    subtitle: "GESTÃO CLÍNICA INTELIGENTE COM IA E SUPABASE",
+    description:
+      "Full-stack platform for clinical management with Supabase Auth, SOAP electronic health records, digital prescriptions, exam management, and AI triage module. Features profile-based authentication (professional/patient), real-time dashboard, and smooth animations.",
+    tags: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Supabase",
+      "FastAPI",
+      "Python",
+      "PostgreSQL",
+      "Recharts",
+      "AI",
+    ],
+    link: "https://github.com/Guiicodr/iAssis",
+  },
+  {
+    number: "02",
     stage: "PROTÓTIPO",
     title: "Sistema de Controle Financeiro",
     subtitle: "GESTÃO FINANCEIRA COM API REST E FRONTEND DESACOPLADO",
@@ -52,7 +72,7 @@ export const featuredProjects: FeaturedProject[] = [
     link: "https://financial-control-dashboard-smoky.vercel.app",
   },
   {
-    number: "02",
+    number: "03",
     stage: "PROTÓTIPO",
     title: "Sole Store",
     subtitle: "E-COMMERCE DE TÊNIS COM ESTILO JOVIAL",
@@ -66,6 +86,15 @@ export const featuredProjects: FeaturedProject[] = [
 export const allProjects: TableProject[] = [
   {
     number: "01",
+    title: "iAssis — Intelligent Clinical Management",
+    description:
+      "Full-stack platform for clinical management with Supabase Auth, SOAP records, digital prescriptions, exams, AI triage, real-time dashboard and profile-based access",
+    year: 2026,
+    stage: "PROTÓTIPO",
+    link: "https://github.com/Guiicodr/iAssis",
+  },
+  {
+    number: "02",
     title: "Sistema de Controle Financeiro",
     description:
       "API REST em Spring Boot 3 (Railway) e frontend em Next.js (Vercel), com autenticação JWT, Docker e dashboard financeiro completo",
@@ -74,7 +103,7 @@ export const allProjects: TableProject[] = [
     link: "https://financial-control-dashboard-smoky.vercel.app",
   },
   {
-    number: "02",
+    number: "03",
     title: "Sole Store",
     description:
       "E-commerce de tênis com API própria em Node.js + Express + SQLite e autenticação JWT. Frontend moderno em React + Vite com catálogo visual e experiência de compra completa",
@@ -83,21 +112,13 @@ export const allProjects: TableProject[] = [
     link: "https://sole-store-omega.vercel.app",
   },
   {
-    number: "03",
+    number: "04",
     title: "Mapa Secreto",
     description:
       "Landing page com mapa interativo em Leaflet + React para divulgação de um curso estudantil sobre regiões pouco conhecidas de São Paulo. Inclui servidor Express próprio e animações com Framer Motion",
     year: 2026,
     stage: "PROTÓTIPO",
     link: "https://mapa-secreto-nine.vercel.app",
-  },
-  {
-    number: "04",
-    title: "IASSIS",
-    description:
-      "Sistema completo de gestão para clínicas psicológicas com frontend em React + shadcn/ui + Vite e backend em Python. Agendamento, cadastro de clientes, acompanhamento de sessões e painéis analíticos com Recharts",
-    year: 2026,
-    stage: "CONSTRUINDO",
   },
   {
     number: "05",
