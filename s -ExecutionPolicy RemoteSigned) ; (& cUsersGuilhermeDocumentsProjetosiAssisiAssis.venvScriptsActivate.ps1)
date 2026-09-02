@@ -1,0 +1,102 @@
+[1mdiff --git a/src/data/projects.ts b/src/data/projects.ts[m
+[1mindex 4c84c91..9bc1068 100644[m
+[1m--- a/src/data/projects.ts[m
+[1m+++ b/src/data/projects.ts[m
+[36m@@ -25,8 +25,9 @@[m [mexport interface StatItem {[m
+ }[m
+ [m
+ export const heroStats: StatItem[] = [[m
+[31m-  { label: "PROTÓTIPO", value: "04" },[m
+[31m-  { label: "CONSTRUINDO", value: "00" },[m
+[32m+[m[32m  { label: "IDEIA", value: "02" },[m
+[32m+[m[32m  { label: "CONSTRUINDO", value: "01" },[m
+[32m+[m[32m  { label: "PROTÓTIPO", value: "03" },[m
+   { label: "ARTIGO CIENTÍFICO", value: "01" },[m
+ ];[m
+ [m
+[36m@@ -34,27 +35,6 @@[m [mexport const featuredProjects: FeaturedProject[] = [[m
+   {[m
+     number: "01",[m
+     stage: "PROTÓTIPO",[m
+[31m-    title: "iAssis — Intelligent Clinical Management",[m
+[31m-    subtitle: "GESTÃO CLÍNICA INTELIGENTE COM IA E SUPABASE",[m
+[31m-    description:[m
+[31m-      "Full-stack platform for clinical management with Supabase Auth, SOAP electronic health records, digital prescriptions, exam management, and AI triage module. Features profile-based authentication (professional/patient), real-time dashboard, and smooth animations.",[m
+[31m-    tags: [[m
+[31m-      "React",[m
+[31m-      "Vite",[m
+[31m-      "Tailwind CSS",[m
+[31m-      "shadcn/ui",[m
+[31m-      "Supabase",[m
+[31m-      "FastAPI",[m
+[31m-      "Python",[m
+[31m-      "PostgreSQL",[m
+[31m-      "Recharts",[m
+[31m-      "AI",[m
+[31m-    ],[m
+[31m-    link: "https://i-assis.vercel.app",[m
+[31m-  },[m
+[31m-  {[m
+[31m-    number: "02",[m
+[31m-    stage: "PROTÓTIPO",[m
+     title: "Sistema de Controle Financeiro",[m
+     subtitle: "GESTÃO FINANCEIRA COM API REST E FRONTEND DESACOPLADO",[m
+     description:[m
+[36m@@ -72,7 +52,7 @@[m [mexport const featuredProjects: FeaturedProject[] = [[m
+     link: "https://financial-control-dashboard-smoky.vercel.app",[m
+   },[m
+   {[m
+[31m-    number: "03",[m
+[32m+[m[32m    number: "02",[m
+     stage: "PROTÓTIPO",[m
+     title: "Sole Store",[m
+     subtitle: "E-COMMERCE DE TÊNIS COM ESTILO JOVIAL",[m
+[36m@@ -86,15 +66,6 @@[m [mexport const featuredProjects: FeaturedProject[] = [[m
+ export const allProjects: TableProject[] = [[m
+   {[m
+     number: "01",[m
+[31m-    title: "iAssis — Intelligent Clinical Management",[m
+[31m-    description:[m
+[31m-      "Full-stack platform for clinical management with Supabase Auth, SOAP records, digital prescriptions, exams, AI triage, real-time dashboard and profile-based access",[m
+[31m-    year: 2026,[m
+[31m-    stage: "PROTÓTIPO",[m
+[31m-    link: "https://github.com/Guiicodr/iAssis",[m
+[31m-  },[m
+[31m-  {[m
+[31m-    number: "02",[m
+     title: "Sistema de Controle Financeiro",[m
+     description:[m
+       "API REST em Spring Boot 3 (Railway) e frontend em Next.js (Vercel), com autenticação JWT, Docker e dashboard financeiro completo",[m
+[36m@@ -103,7 +74,7 @@[m [mexport const allProjects: TableProject[] = [[m
+     link: "https://financial-control-dashboard-smoky.vercel.app",[m
+   },[m
+   {[m
+[31m-    number: "03",[m
+[32m+[m[32m    number: "02",[m
+     title: "Sole Store",[m
+     description:[m
+       "E-commerce de tênis com API própria em Node.js + Express + SQLite e autenticação JWT. Frontend moderno em React + Vite com catálogo visual e experiência de compra completa",[m
+[36m@@ -112,7 +83,7 @@[m [mexport const allProjects: TableProject[] = [[m
+     link: "https://sole-store-omega.vercel.app",[m
+   },[m
+   {[m
+[31m-    number: "04",[m
+[32m+[m[32m    number: "03",[m
+     title: "Mapa Secreto",[m
+     description:[m
+       "Landing page com mapa interativo em Leaflet + React para divulgação de um curso estudantil sobre regiões pouco conhecidas de São Paulo. Inclui servidor Express próprio e animações com Framer Motion",[m
+[36m@@ -120,6 +91,14 @@[m [mexport const allProjects: TableProject[] = [[m
+     stage: "PROTÓTIPO",[m
+     link: "https://mapa-secreto-nine.vercel.app",[m
+   },[m
+[32m+[m[32m  {[m
+[32m+[m[32m    number: "04",[m
+[32m+[m[32m    title: "IASSIS",[m
+[32m+[m[32m    description:[m
+[32m+[m[32m      "Sistema completo de gestão para clínicas psicológicas com frontend em React + shadcn/ui + Vite e backend em Python. Agendamento, cadastro de clientes, acompanhamento de sessões e painéis analíticos com Recharts",[m
+[32m+[m[32m    year: 2026,[m
+[32m+[m[32m    stage: "CONSTRUINDO",[m
+[32m+[m[32m  },[m
+   {[m
+     number: "05",[m
+     title: "Extensão Universitária: LGPD na Prática",[m

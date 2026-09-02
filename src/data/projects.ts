@@ -53,13 +53,13 @@ export const featuredProjects: FeaturedProject[] = [
   },
   {
     number: "02",
-    stage: "PROTÓTIPO",
-    title: "Sole Store",
-    subtitle: "E-COMMERCE DE TÊNIS COM ESTILO JOVIAL",
+    stage: "CONSTRUINDO",
+    title: "iAssis",
+    subtitle: "GESTÃO CLÍNICA PARA PSICÓLOGOS",
     description:
-      "E-commerce de tênis com frontend em React + Vite + Tailwind e backend próprio em Node.js + Express + SQLite com autenticação JWT. Catálogo com curadoria visual, páginas de produto e experiência de compra fluida do início ao fim.",
-    tags: ["React", "Node.js", "Express", "TypeScript", "Tailwind", "JWT", "SQLite", "UI/UX"],
-    link: "https://sole-store-omega.vercel.app",
+      "Sistema completo de gestão para clínicas psicológicas com frontend em React + shadcn/ui + Vite e backend em Python/FastAPI + Supabase. Inclui agendamento, cadastro de pacientes, prontuário SOAP, prescrições, anexos, painéis analíticos com Recharts e autenticação por papel (admin/médico/paciente).",
+    tags: ["React", "shadcn/ui", "Tailwind", "Vite", "Python", "FastAPI", "Supabase", "PostgreSQL", "TypeScript"],
+    link: "https://i-assis.vercel.app",
   },
 ];
 
@@ -75,12 +75,12 @@ export const allProjects: TableProject[] = [
   },
   {
     number: "02",
-    title: "Sole Store",
+    title: "iAssis",
     description:
-      "E-commerce de tênis com API própria em Node.js + Express + SQLite e autenticação JWT. Frontend moderno em React + Vite com catálogo visual e experiência de compra completa",
+      "Sistema completo de gestão para clínicas psicológicas com frontend em React + shadcn/ui + Vite e backend em Python/FastAPI + Supabase. Inclui agendamento, cadastro de pacientes, prontuário SOAP, prescrições, anexos, painéis analíticos com Recharts e autenticação por papel (admin/médico/paciente)",
     year: 2026,
-    stage: "PROTÓTIPO",
-    link: "https://sole-store-omega.vercel.app",
+    stage: "CONSTRUINDO",
+    link: "https://i-assis.vercel.app",
   },
   {
     number: "03",
@@ -93,12 +93,12 @@ export const allProjects: TableProject[] = [
   },
   {
     number: "04",
-    title: "IASSIS",
+    title: "Sole Store",
     description:
-      "Sistema completo de gestão para clínicas psicológicas com frontend em React + shadcn/ui + Vite e backend em Python. Agendamento, cadastro de clientes, acompanhamento de sessões e painéis analíticos com Recharts",
+      "E-commerce de tênis com API própria em Node.js + Express + SQLite e autenticação JWT. Frontend moderno em React + Vite com catálogo visual e experiência de compra completa",
     year: 2026,
-    stage: "CONSTRUINDO",
-    link: "https://i-assis.vercel.app",
+    stage: "PROTÓTIPO",
+    link: "https://sole-store-omega.vercel.app",
   },
   {
     number: "05",
