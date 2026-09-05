@@ -28,3 +28,13 @@ npm start
 ## 📄 License
 
 Personal project — all rights reserved.
+## 📱 Responsividade
+
+O portfólio é totalmente responsivo utilizando Tailwind CSS:
+
+- **Breakpoints**: `sm:` (640px), `md:` (768px), `lg:` (1024px), `xl:` (1280px)
+- **Header**: navegação adaptável com links que se ajustam ao viewport
+- **Hero**: layout flexível que reorganiza stats verticalmente em mobile
+- **Grids**: projetos em destaque em grid de 2 colunas (desktop), 1 coluna (mobile)
+- **Tabela de projetos**: colunas extras aparecem/desaparecem conforme o tamanho da tela
+- **Footer**: centralizado e compacto em dispositivos móveis
