@@ -61,25 +61,7 @@ export const featuredProjects: FeaturedProject[] = [
     tags: ["React", "shadcn/ui", "Tailwind", "Vite", "Python", "FastAPI", "Supabase", "PostgreSQL", "TypeScript"],
     link: "https://i-assis.vercel.app",
   },
-  {
-    number: "03",
-    stage: "CONSTRUINDO",
-    title: "Pomodu",
-    subtitle: "APLICATIVO DE PRODUTIVIDADE COM POMODORO + FLIP-TO-FOCUS",
-    description:
-      "App premium de produtividade em React Native (Expo) com timer Pomodoro configurável, detecção física de virada de celular (Flip-to-Focus) via acelerômetro, tarefas estilo Kanban, métricas com gráficos semanais, geolocalização automática de sessões, autenticação por email ou modo convidado, persistência local com SQLite e temas escuro/claro com design system próprio.",
-    tags: [
-      "React Native",
-      "Expo",
-      "TypeScript",
-      "SQLite",
-      "React Navigation",
-      "Reanimated",
-      "SVG",
-    ],
-    link: "https://github.com/Guiicodr/Pomodu",
-  },
-];
+  ];
 
 export const allProjects: TableProject[] = [
   {
