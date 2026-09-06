@@ -26,7 +26,7 @@ export interface StatItem {
 
 export const heroStats: StatItem[] = [
   { label: "IDEIA", value: "02" },
-  { label: "CONSTRUINDO", value: "01" },
+  { label: "CONSTRUINDO", value: "02" },
   { label: "PROTÓTIPO", value: "03" },
   { label: "ARTIGO CIENTÍFICO", value: "01" },
 ];
@@ -61,6 +61,24 @@ export const featuredProjects: FeaturedProject[] = [
     tags: ["React", "shadcn/ui", "Tailwind", "Vite", "Python", "FastAPI", "Supabase", "PostgreSQL", "TypeScript"],
     link: "https://i-assis.vercel.app",
   },
+  {
+    number: "03",
+    stage: "CONSTRUINDO",
+    title: "Pomodu",
+    subtitle: "APLICATIVO DE PRODUTIVIDADE COM POMODORO + FLIP-TO-FOCUS",
+    description:
+      "App premium de produtividade em React Native (Expo) com timer Pomodoro configurável, detecção física de virada de celular (Flip-to-Focus) via acelerômetro, tarefas estilo Kanban, métricas com gráficos semanais, geolocalização automática de sessões, autenticação por email ou modo convidado, persistência local com SQLite e temas escuro/claro com design system próprio.",
+    tags: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "SQLite",
+      "React Navigation",
+      "Reanimated",
+      "SVG",
+    ],
+    link: "https://github.com/Guiicodr/Pomodu",
+  },
 ];
 
 export const allProjects: TableProject[] = [
@@ -84,6 +102,15 @@ export const allProjects: TableProject[] = [
   },
   {
     number: "03",
+    title: "Pomodu",
+    description:
+      "App premium de produtividade em React Native (Expo) com timer Pomodoro, detecção de virada de celular (Flip-to-Focus), tarefas Kanban, métricas com gráficos, geolocalização e SQLite local",
+    year: 2026,
+    stage: "CONSTRUINDO",
+    link: "https://github.com/Guiicodr/Pomodu",
+  },
+  {
+    number: "04",
     title: "Mapa Secreto",
     description:
       "Landing page com mapa interativo em Leaflet + React para divulgação de um curso estudantil sobre regiões pouco conhecidas de São Paulo. Inclui servidor Express próprio e animações com Framer Motion",
@@ -92,7 +119,7 @@ export const allProjects: TableProject[] = [
     link: "https://mapa-secreto-nine.vercel.app",
   },
   {
-    number: "04",
+    number: "05",
     title: "Sole Store",
     description:
       "E-commerce de tênis com API própria em Node.js + Express + SQLite e autenticação JWT. Frontend moderno em React + Vite com catálogo visual e experiência de compra completa",
@@ -101,7 +128,7 @@ export const allProjects: TableProject[] = [
     link: "https://sole-store-omega.vercel.app",
   },
   {
-    number: "05",
+    number: "06",
     title: "Extensão Universitária: LGPD na Prática",
     description:
       "Artigo científico e estudo de caso sobre adequação de sistemas à Lei Geral de Proteção de Dados (LGPD), com análise prática de conformidade em aplicações reais e propostas de mitigação",
