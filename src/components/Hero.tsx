@@ -60,7 +60,7 @@ export default function Hero() {
             className="max-w-2xl text-base leading-8 text-zinc-400 sm:text-lg"
           >
             Engenheiro de software, estudante de Análise e Desenvolvimento de
-            Sistemas. Este é um registro aberto do que estou construindo — do
+            Sistemas. Este é um registro aberto do que estou construindo, do
             primeiro esboço de arquitetura ao protótipo rodando. Cada projeto
             mostra o estágio real em que está, não uma versão maquiada.
           </motion.p>
