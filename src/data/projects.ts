@@ -38,7 +38,7 @@ export const featuredProjects: FeaturedProject[] = [
     title: "Sistema de Controle Financeiro",
     subtitle: "GESTÃO FINANCEIRA COM API REST E FRONTEND DESACOPLADO",
     description:
-      "API REST em Spring Boot 3 com segurança JWT e Docker, hospedada no Railway, com frontend em Next.js na Vercel. Arquitetura desacoplada com autenticação stateful/stateless e dashboard completo de gestão financeira.",
+      "API REST em Java 21 e Spring Boot com PostgreSQL, H2 para testes, JWT e Spring Security. Inclui webhook do WhatsApp, endpoints reais para autenticação e transações, variáveis de ambiente, pom.xml e application.properties.",
     tags: [
       "Java",
       "Spring Boot",
@@ -68,7 +68,7 @@ export const allProjects: TableProject[] = [
     number: "01",
     title: "Sistema de Controle Financeiro",
     description:
-      "API REST em Spring Boot 3 (Railway) e frontend em Next.js (Vercel), com autenticação JWT, Docker e dashboard financeiro completo",
+      "API REST em Java 21 e Spring Boot com PostgreSQL, H2 para testes, JWT, Spring Security, webhook do WhatsApp, endpoints de autenticação e transações e configuração por variáveis de ambiente",
     year: 2026,
     stage: "PROTÓTIPO",
     link: "https://financial-control-dashboard-smoky.vercel.app",
