@@ -57,7 +57,7 @@ export const featuredProjects: FeaturedProject[] = [
     title: "iAssis",
     subtitle: "GESTÃO CLÍNICA PARA PSICÓLOGOS",
     description:
-      "Sistema completo de gestão para clínicas psicológicas com frontend em React + shadcn/ui + Vite e backend em Python/FastAPI + Supabase. Inclui agendamento, cadastro de pacientes, prontuário SOAP, prescrições, anexos, painéis analíticos com Recharts e autenticação por papel (admin/médico/paciente).",
+      "Sistema de gestão clínica com frontend em React + Vite + Tailwind, backend em Python + FastAPI, banco de dados e autenticação em Supabase/PostgreSQL, deploy na Vercel e módulo de IA integrado com OpenAI.",
     tags: ["React", "shadcn/ui", "Tailwind", "Vite", "Python", "FastAPI", "Supabase", "PostgreSQL", "TypeScript"],
     link: "https://i-assis.vercel.app",
   },
@@ -77,7 +77,7 @@ export const allProjects: TableProject[] = [
     number: "02",
     title: "iAssis",
     description:
-      "Sistema completo de gestão para clínicas psicológicas com frontend em React + shadcn/ui + Vite e backend em Python/FastAPI + Supabase. Inclui agendamento, cadastro de pacientes, prontuário SOAP, prescrições, anexos, painéis analíticos com Recharts e autenticação por papel (admin/médico/paciente)",
+      "Sistema de gestão clínica com frontend em React + Vite + Tailwind, backend em Python + FastAPI, Supabase/PostgreSQL para banco e autenticação, deploy do frontend na Vercel e módulo de IA integrado com OpenAI",
     year: 2026,
     stage: "CONSTRUINDO",
     link: "https://i-assis.vercel.app",
